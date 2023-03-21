@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Calvin</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <div class="container"></div>
+  <body>
+    <h2>Form</h2>
+    <p><img src="Foto.png"/></p>
+    <p> Calvin Alvianto (215314056)</p>
+    <form>
+    <div class="container">
+      <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Masukkan Nama</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Masukkan Nama">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="numFields">Masukkan Jumlah</label>
+        </div>
+        <div class="col-75">
+          <input type="number" id="numFields" name="numFields" placeholder="Jumlah" min="1">
+        </div>
+      </div>
+      </div>
+      <br>
+      <div class="row">
+        <button type="button" onclick="buatFields()">OK</button>
+      </div>
+      </form>
+      <div id="fieldsContainer" placeholder="Pilihan"></div>
+      <br>
+    </body>
+</html>
